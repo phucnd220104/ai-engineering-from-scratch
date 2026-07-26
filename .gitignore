@@ -1,4 +1,6 @@
 __pycache__/
+*.parquet
+*.csv
 *.py[cod]
 *$py.class
 *.so
@@ -10,7 +12,10 @@ venv/
 dist/
 build/
 .eggs/
-
+*.onnx
+data/*.parquet
+data/*.csv
+models/	
 .ipynb_checkpoints/
 *.ipynb_metadata/
 *.env
@@ -18,7 +23,7 @@ node_modules/
 .next/
 out/
 .vercel
-
+*.bin
 target/
 Cargo.lock
 *.rlib
