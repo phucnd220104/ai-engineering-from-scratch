@@ -1,7 +1,8 @@
 import os
 import json
 import urllib.request
-
+from dotenv import load_dotenv
+load_dotenv() 
 MODEL = os.environ.get("LLM_MODEL", "claude-sonnet-5")
 
 

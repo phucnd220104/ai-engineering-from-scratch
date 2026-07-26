@@ -13,7 +13,7 @@ build/
 
 .ipynb_checkpoints/
 *.ipynb_metadata/
-
+*.env
 node_modules/
 .next/
 out/
