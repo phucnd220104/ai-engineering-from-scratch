@@ -53,7 +53,9 @@ mlruns/
 *.bin
 *.h5
 .gstack/
-
+*.pt
+*.pth
+*.safetensors
 .link-cache.json
 .claude/
 catalog.json
